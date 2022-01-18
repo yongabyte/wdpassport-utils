@@ -48,7 +48,16 @@ Device: /dev/sdc
 Security status: Unlocked
 Encryption type: Unknown (0x31)
 ```
+```
+NOTE TO SELF
 
+If the commands returns 
+> Multiple Western Digital Passport devices found. Use –device /dev/___ 
+
+run: `wdpassport-utils.py <one of the following command> -d /dev/sdb` 
+sdb being the Attached SCSI disk of your wd drive.
+Find out your SCSI disk by running `dmesg | grep -i scsi` 
+``` 
 There are few options:
 
 ```
