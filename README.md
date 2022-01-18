@@ -56,7 +56,7 @@ If the commands returns
 
 run: `wdpassport-utils.py <one of the following command> -d /dev/sdb` 
 sdb being the Attached SCSI disk of your wd drive.
-Find out your SCSI disk by running `dmesg | grep -i scsi` 
+Find out your SCSI disk by running `dmesg | grep -i scsi`  Check direction here https://github.com/geekhaidar/WD-Passport-Unlock-Linux
 ``` 
 There are few options:
 
